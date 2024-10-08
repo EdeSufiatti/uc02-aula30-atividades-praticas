@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div id="root">
+        <form id="form-calculadora">
+            <div class="fields">
+                <h1>OPERAÇÕES MATEMÁTICAS BÁSICAS</h1>
+                <div id="v1">
+                    <label class="vlr1" for="valor1">Primeiro Valor:</label>
+                    <input type="valor1" id="valor1" name="valor1" required>
+                </div>
+                <div id="v2">
+                    <label class="vlr2" for="valor2">Segundo Valor:</label>
+                    <input type="valor2" id="valor2" name="valor2" required>
+                </div>
+            </div>
+            <select name="select-operacao" id="select-operacao">
+                <option value="Somar">+</option>
+                <option value="Subtrair">-</option>
+                <option value="Dividir">/</option>
+                <option value="Multiplicar">*</option>
+                <select>
+                    <button id="btn-calcular">Calcular</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
